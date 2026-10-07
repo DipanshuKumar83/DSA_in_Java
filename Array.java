@@ -15,6 +15,17 @@ void main(){
     for (int val:code){
         System.out.println(val);
     }
+    // Find the min
+
+    int arr[]={2,4,7,-5,10};
+    int N=arr.length;
+    int minValue=arr[0];
+    for (int i = 0; i<=N-1; i++) {
+        if(arr[i]<minValue){
+             minValue=arr[i];
+            System.out.println(minValue);
+
+        }
 
 }
 
