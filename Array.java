@@ -26,6 +26,20 @@ void main(){
             System.out.println(minValue);
 
         }
+        
+        // 2-D
+    int [][] arr;
+    arr =new int[3][3];
+    int[][] bar={
+            {1,2,3},
+            {4,5,6},
+            {7,8,9}
+    };
+
+    System.out.println(bar[0][0]);
+    System.out.println(bar[1][2]);
+    System.out.println(bar[1][1]);
+}
 
 }
 
