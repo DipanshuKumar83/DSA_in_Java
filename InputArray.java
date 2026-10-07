@@ -13,4 +13,16 @@ void main(){
         }
 
     }
+    //Sum 
+    int arr1[]={2,3,4,65,89};
+    int sum=0;
+    int N= arr1.length;
+    for (int i = 0; i <=N-1; i++) {
+        int value=arr1[i];
+        System.out.println(value);
+        sum=sum+value;
+        System.out.println(sum);
+
+    }
+
 }
