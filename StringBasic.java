@@ -13,6 +13,25 @@ void main(){
     System.out.println(str.charAt(2));
     System.out.println(str.charAt(3));
     System.out.println(str.charAt(4));
+    
+// Comparing Strings 
+String firstname="DIPANSHU";
+    String lastname="DIPANSHU";
+    if(firstname==lastname){
+        System.out.println("Both are equals");
 
+    }
+else{
+        System.out.println("Both are not equal");
+    }
+
+
+    if(firstname.equals(lastname)){
+        System.out.println("Both are equals");
+
+    }
+    else{
+        System.out.println("Both are not equal");
+    }
 
 }
