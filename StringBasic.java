@@ -33,5 +33,10 @@ else{
     else{
         System.out.println("Both are not equal");
     }
+    //input String
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Define a JAVA");
+    String Java=sc.nextLine();
+    System.out.println("ABOUT JAVA: " +Java);
 
 }
