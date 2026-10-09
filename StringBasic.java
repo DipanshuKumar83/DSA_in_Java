@@ -39,4 +39,9 @@ else{
     String Java=sc.nextLine();
     System.out.println("ABOUT JAVA: " +Java);
 
+    //Replace
+     String Name="sahash";
+    Name=Name.replace('s','l');
+    System.out.println(Name);
+
 }
