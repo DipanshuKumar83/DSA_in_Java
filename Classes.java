@@ -28,6 +28,12 @@ class Dipanshu{
         Age=Student_Age;
         Mark=Student_Marks;
     }
+    Dipanshu(Dipanshu student1){
+        this.Name=student1.Name;
+        this.Age= student1.Age;
+        this.Mark= student1.Mark;
+    }
+
 
     void mydetail(){
         System.out.println("Name :"+Name+ " Age: "+ Age +" Mark: "+ Mark);
@@ -37,7 +43,9 @@ class Dipanshu{
 void main(){
     Dipanshu student1=new Dipanshu("Aman Yadav",20,900);
     Dipanshu student2=new Dipanshu("Avi Yadav",21,930);
+    Dipanshu ClonedStudent1=new Dipanshu(student1);
 
     student1.mydetail();
     student2.mydetail();
+     ClonedStudent1.mydetail();
 }
