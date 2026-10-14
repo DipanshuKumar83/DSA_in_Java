@@ -1,19 +1,26 @@
-package Polymorphism;
+package Abstraction;
 
-public class Main {
-    static void main(String[] args) {
-        Calculator c=new Calculator();
+interface bird {
+     void fly();
 
-        System.out.println(c.add(12,13));
-        System.out.println(c.add(12,13,4));
-        System.out.println(c.add(12,13,12,22));
+     void eat();
+}
+class sparrow implements bird {
+    public void fly() {
+        IO.println("Sparrow is flying");
+    }
 
-        //@override
-        Shape s=new Shape();
-        s.Draw();
-
-        Circle c=new Circle();
-        c.Area();
-
+    public void eat() {
+        IO.println("Sparrow is eating...");
     }
 }
+
+ class Main{
+
+    public static void main(String[] args) {
+        bird b=new sparrow();
+        b.eat();
+        b.fly();
+
+     }
+ }
