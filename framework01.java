@@ -60,6 +60,20 @@ public class framework01 {
         List5.add("Shivansh");
         List5.add("Nitu ");
         IO.println("Linkedlist String :"+List5);
+
+   //JAVA Stack
+
+    Stack<Integer> number=new Stack<>();
+        number.add(12);
+        number.add(19);
+        number.add(14);
+        number.add(13);
+        System.out.println("Stack = "+ number);
+        number.push(3);
+        System.out.println("push " +number);
+        number.pop();
+        System.out.println("pop " +number);
+        System.out.println(number.peek());     
     
     }
 }
