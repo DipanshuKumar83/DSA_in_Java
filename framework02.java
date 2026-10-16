@@ -46,7 +46,22 @@ public class framework02 {
         avg.add(40);
         IO.println(avg);
 
- 
+ //RetainAll
+        Set<Integer> set1=new HashSet<>();
+        Set<Integer> set2=new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+
+        set2.add(4);
+        set2.add(3);
+        set2.add(6);
+        set2.add(5);
+
+        set1.retainAll(set2);
+        IO.println(set1);
+
 
     }
 }
