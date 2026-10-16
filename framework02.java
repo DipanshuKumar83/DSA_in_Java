@@ -32,7 +32,21 @@ public class framework02 {
         num1.offer(290);
         System.out.println(num1.poll());
         System.out.println(num1.poll());
-       
+        
+      // Set Interface
+        Set<Integer> avg=new HashSet<>();
+        avg.add(20);
+        avg.add(50);
+        avg.add(60);
+        avg.add(10);
+        avg.add(20);
+        avg.add(30);
+        avg.add(30);
+        avg.add(40);
+        avg.add(40);
+        IO.println(avg);
+
+ 
 
     }
 }
