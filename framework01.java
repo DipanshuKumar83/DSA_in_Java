@@ -44,5 +44,22 @@ public class framework01 {
     Name.add("Varnaya");
     Name.add("Anshu");
         System.out.println(Name);
+
+    //Linkedlist
+        LinkedList <Integer> List4=new LinkedList<>();
+        List4.add(20);
+        List4.add(2);
+        List4.add(32);
+        List4.add(22);
+        System.out.println("Linkedlist "+List4);
+
+    //Linkedlist_String
+    LinkedList<String> List5=new LinkedList<>();
+    List5.add("harsh");
+        List5.add("Shahsha");
+        List5.add("Shivansh");
+        List5.add("Nitu ");
+        IO.println("Linkedlist String :"+List5);
+    
     }
 }
