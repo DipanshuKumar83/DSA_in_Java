@@ -17,4 +17,8 @@ void main(){
     else{
         IO.println("not power of 2");
     }
+    //Last Bit Values 
+    IO.println("Enter the values of p");
+   int p= sc.nextInt();
+    IO.println((p&(-p))); 
 }
